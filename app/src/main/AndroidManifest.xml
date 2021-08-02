@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.propertydealerkidiary_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PropertydealerkidiaryFINAL">
+        <activity
+            android:name=".AddRentPropActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddPropertyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddDemandActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddClientActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PropertydealerkidiaryFINAL.NoActionBar">
+            <intent-filter>
+
+                <!-- MAIN represents that it is the Main Activity -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- Launcher Denotes that it will be the first launching activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

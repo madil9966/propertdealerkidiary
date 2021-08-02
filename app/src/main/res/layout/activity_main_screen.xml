@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+      >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardViewProperties"
+        android:layout_marginBottom="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder1"
+                    android:text="Properties"
+                    android:textSize="30sp"
+                    android:padding="15dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder2"
+                    android:text="Add Properties"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder1"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder3"
+                    android:text="View Properties"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder2"/>
+
+
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/home_sketch"
+                    android:contentDescription="House"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardViewRent"
+        android:layout_marginBottom="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder11"
+                    android:text="Rent"
+                    android:textSize="30sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder22"
+                    android:text="Add Rental \nProperty"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder11"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder33"
+                    android:text="View Ads"
+                    android:textSize="20sp"
+                    android:layout_marginTop="-12dp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder22"/>
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:contentDescription="Rent"
+                    android:src="@drawable/for_rent"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardViewCustomer"
+        android:layout_marginBottom="40dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder_customer"
+                    android:text="Client"
+                    android:textSize="30sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_client"
+                    android:text="Add Client"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder_customer"/>
+
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/customer"
+                    android:contentDescription="Clients"
+                    android:layout_alignParentEnd="true"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardViewDemand"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_bg"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_holder_demand"
+                    android:text="Demand"
+                    android:textSize="30sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_view_addDem"
+                    android:text="Add Demand"
+                    android:textSize="20sp"
+                    android:padding="15dp"
+                    android:textColor="#000"
+                    android:layout_below="@+id/text_view_holder_demand"/>
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:contentDescription="Demand"
+                    android:src="@drawable/protester"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>

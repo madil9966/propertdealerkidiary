@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_Top"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/text_view_DemandLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Demand"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Select Date"
+            android:layout_below="@+id/text_view_DemandLabel"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/edit_text_loc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Location"
+            android:layout_below="@+id/etDate"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Price"
+            android:layout_below="@+id/edit_text_loc"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/edit_text_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Type (Buy, Rental)"
+            android:layout_below="@+id/edit_text_price"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/button_addDemand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/edit_text_type"
+            android:text="Add Demand"
+            android:padding="20dp"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_general"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

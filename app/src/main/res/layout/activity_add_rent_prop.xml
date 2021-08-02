@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_Top"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/text_view_renLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Rental \nProperty"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/etRPropName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Rented Property Name"
+            android:layout_below="@+id/text_view_renLabel"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/etROwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Owner Name"
+            android:layout_below="@+id/etRPropName"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etROwnerCon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Owner Contact"
+            android:layout_below="@+id/etROwnerName"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/et_Rtype"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Type (i.e Normal, Serviced, Detached, Room, City Villa)"
+            android:layout_below="@+id/etROwnerCon"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etRLoc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Location"
+            android:layout_below="@+id/et_Rtype"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/etDate2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Select Date"
+            android:layout_below="@+id/etRLoc"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etRDes"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Description"
+            android:layout_below="@+id/etDate2"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etRDem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Price"
+            android:layout_below="@+id/etRDes"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/button_addRentProp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Property"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/etRDem"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_general"/>
+        <Button
+            android:id="@+id/button_viewRentProp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Property"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/button_addRentProp"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_general"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

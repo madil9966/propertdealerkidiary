@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rel_Top"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/text_view_DemandLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Property"
+            android:layout_marginTop="50dp"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etPropName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Property Name"
+            android:layout_below="@+id/text_view_DemandLabel"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Owner Name"
+            android:layout_below="@+id/etPropName"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etOwnerCon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Owner Contact"
+            android:layout_below="@+id/etOwnerName"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Type (i.e Private, Public, Collective)"
+            android:layout_below="@+id/etOwnerCon"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etLoc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Location"
+            android:layout_below="@+id/et_type"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/etDate1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Select Date"
+            android:layout_below="@+id/etLoc"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etDes"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Description"
+            android:layout_below="@+id/etDate1"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etDem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Price"
+            android:layout_below="@+id/etDes"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/et_bg"
+            android:padding="10dp"/>
+
+
+        <Button
+            android:id="@+id/button_addDemand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Property"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/etDem"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_general"/>
+
+        <Button
+            android:id="@+id/button_viewProperties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_addDemand"
+            android:layout_marginTop="30dp"
+            android:text="View Properties"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_general"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

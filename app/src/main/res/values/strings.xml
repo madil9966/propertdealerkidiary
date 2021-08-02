@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Property Dealer Ki Diary</string>
+    <string-array name="type">
+        <item>Individual</item>
+        <item>Small Office</item>
+        <item>Real Estate Agencies</item>
+    </string-array>
+</resources>
